@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: ghcr.io/dmitryosipovaxis/myapp:latest
+          image: nginx:alpine
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           readinessProbe:
-            httpGet: { path: /healthz, port: 3000 }
+            httpGet: { path: /, port: 80 }
             initialDelaySeconds: 3
             periodSeconds: 5
   strategy:
