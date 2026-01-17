@@ -2,4 +2,4 @@ resources: [../../base]
 namespace: myapp-dev
 images:
   - name: ghcr.io/DmitryOsipovAXIS/myapp
-    newTag: dev-placeholder
+    newTag: latest
