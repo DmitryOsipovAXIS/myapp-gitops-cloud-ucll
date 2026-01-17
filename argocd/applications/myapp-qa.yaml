@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/DmitryOsipovAXIS/myapp-gitops.git
+    repoURL: https://github.com/DmitryOsipovAXIS/myapp-gitops-cloud-ucll
     targetRevision: main
     path: apps/myapp/overlays/qa
   destination:
