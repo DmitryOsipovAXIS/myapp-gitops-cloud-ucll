@@ -1,5 +1,5 @@
 resources: [../../base]
 namespace: myapp-prod
-# images:
-#   - name: ghcr.io/dmitryosipovaxis/myapp
-#     newTag: v0.0.0
+images:
+   - name: ghcr.io/dmitryosipovaxis/myapp
+     newTag: latest
